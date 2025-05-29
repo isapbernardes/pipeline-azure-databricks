@@ -62,7 +62,7 @@ Este projeto teve como objetivo **realizar transformações de dados brutos usan
 - Renomeação de colunas para nomes mais intuitivos  
 - Filtragem de estados indesejados (`Indeterminado`, `Sem Registro`, `Exterior`)  
 - Inclusão de coluna com timestamp de atualização  
-4️⃣ Escrita final na camada Gold, atualmente em formato **Parquet** (planejado para Delta Lake nas próximas versões), particionada por **Estado**
+4️⃣ Escrita final na camada Gold, atualmente em formato **Parquet** 
 
 ---
 
@@ -74,5 +74,9 @@ Este projeto teve como objetivo **realizar transformações de dados brutos usan
 ✅ Configuração de permissões entre Databricks e Azure  
 ✅ Entendimento de que, mesmo excluindo arquivos no Azure, a reexecução do pipeline consegue repovoar os dados automaticamente
 
+
+#Evidências: 
+
+![Execução bem sucedida](./Images/execucao.png)
 
 
