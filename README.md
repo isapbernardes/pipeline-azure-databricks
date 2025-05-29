@@ -75,8 +75,10 @@ Este projeto teve como objetivo **realizar transformações de dados brutos usan
 ✅ Entendimento de que, mesmo excluindo arquivos no Azure, a reexecução do pipeline consegue repovoar os dados automaticamente
 
 
-#Evidências: 
+# Evidências: 
 
 ![Execução bem sucedida](./Images/execucao.png)
+![Pipeline Factory](./Images/factory.png)
+![Workflow Databricks](./Images/silver-gold.png)
 
 
